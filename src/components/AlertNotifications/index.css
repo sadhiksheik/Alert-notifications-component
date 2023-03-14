@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding: 30px;
+}
+.all-notifications {
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: bold;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+}
+.success {
+  color: #64748b;
+  font-size: 20px;
+}
+.description {
+  color: #475569;
+  font-size: 17px;
+}
+.error {
+  color: #ff0b37;
+  font-size: 17px;
+}
+.warning {
+  color: #ffb800;
+  font-size: 17px;
+}
+.info {
+  color: #0f81e0;
+  font-size: 17px;
+}
+.suc {
+  color: #64748b;
+}
+.err {
+  color: #ff0b37;
+}
+.war {
+  color: #ffb800;
+}
+.inf {
+  color: #0f81e0;
+}
